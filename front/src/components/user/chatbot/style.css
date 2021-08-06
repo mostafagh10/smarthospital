@@ -1,0 +1,94 @@
+.btn-chat{
+    border:none;
+    padding:10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 20%;
+  }
+  #chatbox{
+    display:none;
+    /* border: 3px solid #f1f1f1; */
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 9;
+  }
+  .form-container{
+    max-width: 300px;
+    padding: 10px;
+    background: white;
+  }
+  .form-container textarea{
+    width: 100%;
+    min-height:200px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    font-size: 15px;
+  }
+  .form-container textarea:focus{
+    background: #ddd;
+    outline: none;
+  }
+  .btn-send, .btn-close{
+    padding:10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .btn-send,.btn-close,.btn-chat:hover{
+    opacity: 1;
+  }
+  .titlechatbot{
+    background: rgb(0, 137, 172);
+    color:white;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+  }
+
+  .question-text{
+    position: relative;
+      background-color: rgb(59, 224, 211);
+      font-weight: bold;
+      width: 70%;
+      padding: 10px;
+      /* border-radius: 20px; */
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+  }
+  .res{
+      color: red;
+  }
+
+  .question-text ::before{
+    content: '';
+    position: absolute;
+    visibility: visible;
+    top: -1px;
+    left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid #ccc;
+  }
+
+  .question-text ::after{
+    content: '';
+    position: absolute;
+    visibility: visible;
+    top: 0px;
+    left: -8px;
+    border: 10px solid transparent;
+    border-top: 10px solid rgb(59, 224, 211);
+    clear: both;
+  }

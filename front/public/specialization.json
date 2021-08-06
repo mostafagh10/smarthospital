@@ -1,0 +1,17 @@
+[
+    { "Name": "Allergists/Immunologists" },
+    { "Name": "Critical Care Medicine Specialists" },
+    {"Name": "Dermatologists"}, 
+    {"Name": "Emergency Medicine Specialists"},
+    {"Name": "Gastroenterologists"},
+    {"Name": "Hematologists"},
+    {"Name": "Infectious Disease Specialists" },
+    {"Name": "Internists"},
+    {"Name": "Neurologists"},
+    { "Name": "Oncologists"} , 
+    {"Name": "Otolaryngologists" } ,
+    {"Name": "Pediatricians"} ,
+    {"Name": "Preventive Medicine Specialists"} ,
+    {"Name": "Pulmonologists"} ,
+    {"Name": "Radiologists"} 
+  ]

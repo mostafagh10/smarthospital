@@ -1,0 +1,12 @@
+.btn-outline-dark {
+	border-color: #FFF;
+	color: #FFF;
+}
+.btn-outline-dark:hover {
+	border-color: #343a40;	
+}
+.nav-item{
+	font-size: 19px;
+	font-Family:'-moz-initial';
+	text-transform: capitalize;
+}

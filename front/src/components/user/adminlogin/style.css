@@ -1,0 +1,29 @@
+.loginbody{
+    background-color: #edf2f5;
+}
+.login{
+    padding: 30px;
+    margin: 40px;
+}
+.loginlabel{
+    font-size: 20px;
+    font-weight: bold;
+}
+.logininput{
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    background-color: #edf2f5;
+}
+.loginbutton{
+    width: 70%;
+}
+.loginforget{
+    text-align: center;
+    width: 70%;
+}
+@media(max-width:700px) {
+    .logininput,.loginbutton,.loginforget{
+        width: 90%;
+    }
+}

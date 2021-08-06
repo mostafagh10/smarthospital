@@ -1,0 +1,22 @@
+.profilebodyadmin{
+    background-color: rgb(145, 195, 214);
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background-color: white;
+}
+.sidebarcard2{
+    background-color: black;
+    color: white;
+    height: 94%;
+    margin-top: 20px;
+}
+.content2{
+    padding: 3px;
+}

@@ -1,0 +1,8 @@
+.adminsnum{
+    background-color: rgb(51, 51, 51);
+    color: wheat;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}

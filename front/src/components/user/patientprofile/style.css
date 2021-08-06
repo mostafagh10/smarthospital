@@ -1,0 +1,28 @@
+.profilebody{
+    background-color: rgb(145, 195, 214);
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background-color: white;
+}
+.sidebarcard{
+    background-color: black;
+    color: white;
+    height: 97%;
+    margin-top: 0px;
+}
+.content{
+    padding: 1px;
+    margin-top: 0px;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}

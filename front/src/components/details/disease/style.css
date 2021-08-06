@@ -1,0 +1,22 @@
+.divtable{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(194, 192, 192);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.divtable:hover{
+    background-color: rgb(0, 154, 214);
+    color: wheat;
+}
+.divshow h2{
+    color: rgb(79, 197, 243);
+}
+.divshow h6{
+    margin-top: 10px;
+    line-height: 24px;
+}

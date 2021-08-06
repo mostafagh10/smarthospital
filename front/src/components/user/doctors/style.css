@@ -1,0 +1,70 @@
+.one{
+    margin-top: 140px;
+    text-align: center;
+}
+#servicedoctor{
+    padding: 0;
+    text-align: left;
+}
+#servicedoctor div{
+    margin: 20px;
+}
+#servicedoctor div div{
+    margin: 0px;
+}
+#service1{
+    text-align: center;
+    height: 390px;
+    width: 350px;
+    margin-top: 20px;
+}
+@media (max-width:767px){
+    #service1{
+        margin: 20px auto;
+    }
+}
+#service2{
+    border: none;
+    color: rgb(245, 248, 245);
+    background-color: rgb(12, 12, 12);
+}
+#service3{
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+#service4,#service5{
+    font-size:50px;
+    margin: auto;
+    color: rgb(75, 131, 156);
+}
+
+.rateradio{
+    display: none;
+}
+
+.star{
+    cursor: pointer;
+    
+}
+
+.selectsearch2{
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    outline-offset: none;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align-last:center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+@media (max-width:767px){
+    .selectsearch2{
+        width: 90%;
+    }
+    .searchspace{
+        display: none;
+    }
+  }

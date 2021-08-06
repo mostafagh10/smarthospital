@@ -1,0 +1,145 @@
+{
+    "about" : [
+        {
+            "id" : 1,
+            "title": "health information",
+            "body": "Tell us about your symptoms"
+        },
+        {
+            "id": 2,
+            "title": "doctor timetable",
+            "body": "Connect with a doctor"
+        },
+        {
+            "id" : 3,
+            "title": "medical education",
+            "body": "Get your prescription"
+        }
+    ],
+
+    "works" : [
+        {
+            "id":1,
+            "image": "work1.jpg"
+        },
+        {
+            "id":2,
+            "image": "work2.jpg"
+        },
+        {
+            "id":3,
+            "image": "work3.jpg"
+        },
+        {
+            "id":4,
+            "image": "work4.jpg"
+        },
+        {
+            "id":5,
+            "image": "work5.jpg"
+        },
+        {
+            "id":6,
+            "image": "work6.jpg"
+        }
+    ] ,
+    "price" : [
+        {
+            "id": 1,
+            "plan" : "Basic",
+            "price" : "9"
+        },
+        {
+            "id": 2,
+            "plan" : "Silver",
+            "price" : "19"
+        },
+        {
+            "id": 3,
+            "plan" : "Gold",
+            "price" : "39"
+        }
+    ] ,
+    "team" : [
+        {
+            "id":1,
+            "image": "team1.jpg"
+        },
+        {
+            "id":2,
+            "image": "team2.jpg"
+        },
+        {
+            "id":3,
+            "image": "team3.jpg"
+        }
+    ],
+    "contact" : [
+        {
+            "id": 1,
+            "type" : "phone",
+            "details" : "512-421-3940",
+            "icon" : "phone"
+        },
+        {
+            "id": 2,
+            "type" : "email",
+            "details" : "email@support.com",
+            "icon" : "envelope"
+        },
+        {
+            "id": 3,
+            "type" : "address",
+            "details" : "1739 Bubby Drive",
+            "icon" : "map-marker-alt"
+        }
+    ],
+    "services" : [
+        {
+            "id": 1,
+            "type" : "personal treatment",
+            "number" : "512-421-3940",
+            "des" : "because your health is our first mission, now you can know what diseases that you have with only few steps. you just tell us what you feel and let us diagnose you.",
+            "icon" : "fas fa-heartbeat",
+            "icon2" : "gem"
+        },
+        {
+            "id": 2,
+            "type" : "emergency help",
+            "number" : "451K",
+            "des" : "We care about the best doctors to take care of your health to the fullest.",
+            "icon" : "fas fa-briefcase-medical",
+            "icon2" : "rocket"
+        },
+        {
+            "id": 3,
+            "type" : "medical staff",
+            "number" : "400",
+            "des" : "Get a medical consultation through one of our professional doctors, and you can refer to them at any time for quick follow-up",
+            "icon" : "fas fa-user-md",
+            "icon2" : "cogs"
+        },
+        {
+            "id": 4,
+            "type" : "qualified doctors",
+            "number" : "45",
+            "des" : "we hope that will help you in case of you want to go to a good hospital and don't know where should you go.  we offer to you a list of hospitals.",
+            "icon" : "fas fa-stethoscope",
+            "icon2" : "gem"
+        },
+        {
+            "id": 5,
+            "type" : "Awesome labs",
+            "number" : "0",
+            "des" : "there are a number of famous pharmacies that support delievery, each pharmacy is shown with its number and all its contact ways. be safe.",
+            "icon" : "fas fa-flask"
+        },
+        {
+            "id": 6,
+            "type" : "opening hours",
+            "number" : "0",
+            "des" : "we hope that it will help you to know what you should take in case that you have already known what disease that you have.",
+            "icon" : "fas fa-clock"
+        }
+    ] 
+}

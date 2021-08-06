@@ -1,0 +1,75 @@
+.one{
+    margin-top: 140px;
+    text-align: center;
+}
+#servicemedicine{
+    text-align: left;
+    padding-bottom: 0px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 550px;
+    width: 350px;
+    margin-top: 20px auto;
+    overflow: hidden;
+}
+#servicemedicine2{
+    height: 500px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*
+#servicemedicine2{
+    padding-left: 10px;
+    height: 50%;
+}
+#servicemedicine2 ::before{
+    content : '';
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    height: 135px;
+    width: 100%;
+    background: linear-gradient(transparent , white);
+}
+.more{
+    position: relative;
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+*/
+.readmore{
+    color: white;
+    text-decoration: none;
+}
+.readmore:hover{
+   color: white;
+   text-decoration: none;
+}
+@media (max-width:767px){
+    #service1{
+        margin: 20px auto;
+    }
+    #servicemedicine{
+        margin: 20px auto;
+    }
+}
+#service2{
+    border: none;
+    color: rgb(245, 248, 245);
+    background-color: rgb(12, 12, 12);
+}
+#service3{
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+#service4,#service5{
+    font-size:50px;
+    margin: auto;
+    color: rgb(75, 131, 156);
+}

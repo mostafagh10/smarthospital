@@ -1,0 +1,13 @@
+.manageadminbutton{
+    width:30%;
+    margin:auto;
+}
+
+@media (max-width:767px){
+    .manageadminbutton{
+        width:50%;
+    }
+  }
+.managepatienttable{
+    width: 80%;
+}

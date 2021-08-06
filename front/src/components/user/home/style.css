@@ -1,0 +1,36 @@
+.one{
+    margin-top: 140px;
+    text-align: center;
+}
+.titlehr{
+    width: 40px;
+    background-color: rgb(75, 131, 156);
+    border:none;
+    height: 5px;
+}
+#service11{
+    text-align: center;
+    
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+}
+@media (max-width:767px){
+    #service11{
+        margin: 20px auto;
+    }
+}
+#service2{
+    border: none;
+    color: rgb(245, 248, 245);
+    background-color: rgb(12, 12, 12);
+}
+#service3{
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+#service4,#service5{
+    font-size:50px;
+    margin: auto;
+    color: rgb(75, 131, 156);
+}

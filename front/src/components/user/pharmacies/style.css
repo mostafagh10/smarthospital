@@ -1,0 +1,83 @@
+.one{
+    margin-top: 140px;
+    text-align: center;
+}
+#service1{
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+}
+#servicepharmacy{
+    padding: 0;
+    margin-top: 40px;
+}
+#servicepharmacy div{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 180px;
+}
+@media (max-width:767px){
+    #servicepharmacy{
+        margin: 20px auto;
+    }
+}
+#service2{
+    border: none;
+    color: rgb(245, 248, 245);
+    background-color: rgb(12, 12, 12);
+}
+#service3{
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+#service4,#service5{
+    font-size:50px;
+    margin: auto;
+    color: rgb(75, 131, 156);
+}
+
+/*     search box             */
+.searchbox{
+    position:absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(39, 39, 39);
+    height: 40px;
+    border-radius: 40px;
+}
+.searchbox:hover > .searchtext{
+    width: 240px;
+    padding: 0 6px;
+} 
+/*
+.searchbox:hover > .searchbtn{
+    background: rgb(122, 122, 122);
+}
+*/
+.searchbtn{
+    color: #00b6d6;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.searchtext{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}

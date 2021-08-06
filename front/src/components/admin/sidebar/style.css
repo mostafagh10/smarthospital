@@ -1,0 +1,124 @@
+/* sidebar */
+.navigation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 0px;
+    background-color: #343a40;
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 99;
+  }
+  .navigation:hover,.navigation.active{
+    width: 350px;
+  }
+  .navigation ul{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navigation ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    margin-top: -11px;
+  }
+  .navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(6, 171, 177);
+  }
+  .navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 90px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .navigation ul li a .icon .fa{
+    font-size: 24px;
+  }
+  .navigation ul li a .title,.logouttitle{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .logouttitle{
+    color: white;
+  }
+  .navigation ul li a:hover .logouttitle{
+    color: #343a40;
+  }
+  .navigation ul li:hover{
+    background-color: rgb(6, 171, 177);
+  }
+  .navigation ul li a:hover{
+    color: #343a40;
+  }
+  .toggle{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    /* background: #343a40; */
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000;
+    display: block;
+    border-radius: 14px;
+  }
+  /*
+  .toggle.active{
+    background: #343a40;
+  }
+  */
+  .toggle::before{
+    content: '\f0c9';
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+  }
+  .toggle.active::before{
+    content: '\f00d';
+    color: rgb(6, 171, 177);
+  }
+  
+  @media (max-width:767px){
+    .navigation{
+        left: -60px;
+    }
+    .navigation.active{
+        left: 0;
+        width: 85%;
+    }
+    .navigation ul li{
+      margin-top: -5px;
+    }
+    .toggle{
+      top: 15px;
+      left: 0;
+        display: block;
+    }
+    .dashicon{
+      margin-left: 50px;
+    }
+  }

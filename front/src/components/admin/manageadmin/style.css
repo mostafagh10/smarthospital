@@ -1,0 +1,28 @@
+.manageadminbutton{
+    width:30%;
+    margin:auto;
+}
+.selectsearch{
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
+    outline-offset: none;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align-last:center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+@media (max-width:767px){
+    .manageadminbutton{
+        width:50%;
+    }
+    .selectsearch{
+        width: 90%;
+    }
+  }
+
+.manageadmintable{
+    width: 80%;
+}

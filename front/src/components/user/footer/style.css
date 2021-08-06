@@ -1,0 +1,17 @@
+.Footer{
+    background-color: rgb(58, 57, 57);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.footericon{
+    margin: auto;
+    margin-right: 10px;
+    font-size: 25px;
+    transition: all 0.4s ease-in-out;
+}
+.footericon:hover{
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+}

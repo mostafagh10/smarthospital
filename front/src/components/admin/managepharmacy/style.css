@@ -1,0 +1,57 @@
+.managepharmacybutton{
+    width:30%;
+    margin:auto;
+}
+
+@media (max-width:767px){
+    .managepharmacybutton{
+        width:50%;
+    }
+}
+table td,table th{
+    padding : 12px 15px;
+    border : 1px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+table{
+    margin: 20px auto;
+}
+@media(max-width:500px){
+    table thead{
+        display: none;
+    }
+    table tbody tr:nth-child(even){
+        background-color: rgb(0, 180, 235);
+    }
+    table , table tbody , table tr , table td{
+        display: block;
+        width: 100%;
+    }
+    table tr{
+        margin-bottom: 15px;
+    }
+    table td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+        padding-bottom: 50px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+.managepharmacytable{
+    width: 80%;
+}

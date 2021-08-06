@@ -1,0 +1,10 @@
+.managemedicinebutton{
+    width:30%;
+    margin:auto;
+}
+
+@media (max-width:767px){
+    .managemedicinebutton{
+        width:50%;
+    }
+  }
